@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <script src="script.js"></script>
+        <title>Encriptador de Texto</title>
+        <link rel="icon" href="imagenes/triforce_icono.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="global_conteiner">
+            <header>
+                <div class="header_conteiner">
+                    <img class="header_logo" src="imagenes/logoAlura.png" alt="Logo de Alura"><h1 class="header_title">Encriptador de texto</h1>
+                </div>
+            </header>
+            <main>
+                <div class="main_conteiner">
+                    <div class="left_division">
+                        <div class="tex_in_box">
+                            <textarea placeholder="Ingrese el texto aquí" id="text_in"></textarea>
+                        </div>
+                        <div class="text_in_warning">
+                            <img src="imagenes/exclamacion.png" id="warning_img">
+                            <p class="warning">Solo letras minusculas sin acento</p>
+                        </div>
+                        <div class="left_buttons">
+                            <input class="boton" type="button" id="encriptar" value="Encriptar" onclick="encriptar()">
+                            <input class="boton" type="button" id="desencriptar" value="Desencriptar" onclick="desencriptar()">
+                        </div>
+                    </div>
+                    <div class="right_division">
+                        <div class="visible_content">
+                            <img src="imagenes/chicaLupa.png" alt="Imagen Animada" id="visible_img">
+                            <h2 id="visible_title" class="visible_title">Ningún mensaje fue encontrado</h2>
+                            <p class="visible_text" id="visible_text">Ingresa el texto que desees encriptar o desencriptar</p>
+                        </div>
+                        <div class=" invisible_content">
+                            <textarea id="invisible_textarea" disabled></textarea>
+                            <button class="boton" id="copy" name="copiar" onclick="copiar()">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer_conteiner">
+                    <div class="text_footer">
+                        <p class="copyrigh">&copy 2022 Omar Piedrahita. Todos los derechos reservados</p>
+                    </div>  
+                    <div class="redes_sociales">
+                        <a href="https://www.instagram.com/tyler.marss/"><img src="imagenes/ig.svg"></a>
+                        <a href="https://www.linkedin.com/in/omar-piedrahita-8b6548255/"><img src="imagenes/lk.svg"></a>
+                        <a href="https://github.com/Tylermars666"><img src="imagenes/gt.svg"></a>
+                    </div> 
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
