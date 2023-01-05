@@ -1,10 +1,10 @@
-### DESCRIPCIÓN DEL PROYECTO
+### DESCRIPCIÓN DEL PROYECTO :computer: :star:
 La realización de este trabajo surge del desafío propuesto por el proyecto ONE (Oracle Next Education) de Oracle+Alura Latam, para todos aquellos quienes hayamos concluido la sección “Principiante en Programación”. 
 La idea es poner en práctica todos los conocimientos adquiridos en el transcurso de este aprendizaje, en este caso en particular hablamos sobre manejo de HTML, CSS y JavaScript en la construcción de una página web dándole funcionalidad.
 
 ![mockupAlura](https://i.imgur.com/ZvM5466.jpg "mockupAlura")
 
-### LLAVES DE ENCRIPTACIÓN
+### LLAVES DE ENCRIPTACIÓN :key:
 
     La letra "e" es convertida para "enter"
     La letra "i" es convertida para "imes"
@@ -29,6 +29,7 @@ El resultado debe ser mostrado en la pantalla.
 ### EXTRAS
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
-#### AUTOR
+#### AUTOR :computer: :boy:
 
 Omar Ivan Piedrahita Trujillo
+https://www.linkedin.com/in/omar-piedrahita-8b6548255/

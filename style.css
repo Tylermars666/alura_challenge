@@ -201,6 +201,7 @@ textarea::placeholder{
 
     body{
         width: auto;
+        height: 933px;
     }
 
     .header_conteiner{
@@ -260,17 +261,17 @@ textarea::placeholder{
     }
 
     .right_division{
-        width: 95%;
-        margin: 3% 7.5%;
-        height: 15em;
+        width: 90%;
+        margin-right: 11.5%;
+        height: 20em;
     }
 
     .visible_content{
-        padding-top: 10%;
+        padding-top: 20%;
     }
 
     .footer_conteiner{
-        margin-left: 0;
+        display: none;
     }
 
 }

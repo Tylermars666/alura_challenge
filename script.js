@@ -61,4 +61,16 @@ window.addEventListener('load', function(){
     document.getElementById("text_in").focus();
 });
 
+/*
+if (window.matchMedia("(max-width: 374px)").matches) {
+  
+  const textarea = document.getElementById("text_in");
+  textarea.addEventListener("keyup", e =>{
+  textarea.style.height = "59px";
+  let scHeight = e.target.scrollHeight;
+  textarea.style.height = `${scHeight}px`;
+});
+
+}
+*/
 
