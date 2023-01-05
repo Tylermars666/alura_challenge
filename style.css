@@ -206,7 +206,7 @@ textarea::placeholder{
     .header_conteiner{
         position: relative;
         margin: 4% 0;
-        p
+        
     }
 
     .header_logo{
@@ -243,6 +243,9 @@ textarea::placeholder{
         margin:4% 0 4% 0;
         width: 90%;
     }
+    .boton:hover{
+        transform: none;
+    }
 
     #encriptar{
         display: block;
@@ -270,6 +273,4 @@ textarea::placeholder{
         margin-left: 0;
     }
 
- 
-    
 }
