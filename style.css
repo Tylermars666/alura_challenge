@@ -197,17 +197,79 @@ textarea::placeholder{
     color: #000000;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
 
     body{
         width: auto;
     }
 
+    .header_conteiner{
+        position: relative;
+        margin: 4% 0;
+        p
+    }
+
+    .header_logo{
+        position: absolute;
+        right: 19em;
+    }
+    .header_title, #visible_img{
+        display: none;
+    }
+
     .left_division{
         width: 100%;
     }
-    .right_division{
-        width: 100%;
+
+    #text_in{
+        margin-left: 0;
+        font-size: 1.8em;
+        padding-top: 10%;
+        padding-bottom: 30%;
+        margin-top: 1.5em;
+        width: 90%;
     }
+
+
+    .text_in_warning{
+        margin-left: 0;
+        margin-right: 30%;
+    }
+    .warning{
+        font-size: 1em;
+    }
+
+    .left_buttons{
+        margin:4% 0 4% 0;
+        width: 90%;
+    }
+
+    #encriptar{
+        display: block;
+        width: 100%;
+        padding: 6% 0;
+    }
+    #desencriptar{
+        display: block;
+        width: 100%;
+        margin-top: 6%;
+        padding: 6% 0;
+    }
+
+    .right_division{
+        width: 95%;
+        margin: 3% 7.5%;
+        height: 15em;
+    }
+
+    .visible_content{
+        padding-top: 10%;
+    }
+
+    .footer_conteiner{
+        margin-left: 0;
+    }
+
+ 
     
 }

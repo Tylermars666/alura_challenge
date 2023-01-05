@@ -60,3 +60,5 @@ function copiar() {
 window.addEventListener('load', function(){
     document.getElementById("text_in").focus();
 });
+
+
