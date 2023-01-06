@@ -291,3 +291,92 @@ textarea::placeholder{
     }
 
 }
+
+@media screen and (max-width:769px){
+    body{
+        width: auto;
+        height: 1174px;
+    }
+
+    .header_title, #visible_img{
+        display: none;
+    }
+
+    .header_conteiner{
+        padding-top: 5%;
+    }
+
+    .header_logo{
+        width: 160px;
+    }
+
+    .left_division{
+        width: 85%;
+    }
+
+    #text_in{
+        width: 85%;
+        font-size: 2em;
+        margin-top: 9%;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        padding-bottom: 60%;
+    
+    }
+
+    .text_in_warning{
+        margin-left: 5%;
+    }
+
+    .left_buttons{
+        margin-left: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    #encriptar{
+        padding: 3% 16%;
+        font-size: 1.2em;
+    }
+    #desencriptar{
+        padding: 3% 16%;
+        font-size: 1.2em;
+    }
+    .boton:hover{
+        transform: none;
+    }
+    .right_division{
+
+        width: 85%;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .visible_title{
+        margin-top: 8%;
+        font-size: 2em;
+    }
+
+    .visible_text{
+        margin: 0 0 8% 0;
+        font-size: 1.5em;
+    }
+
+    #invisible_textarea{
+        line-height:1.4em;
+        padding-bottom: 50%;
+        width: 85%;
+        font-size: 1.8em;
+        margin: 10% 7% 2% 0;
+    }
+
+    #copy{
+        border-radius: 25px;
+        font-size: 1.2em;
+    }
+
+    .footer_conteiner{
+        display: none;
+    }
+}
