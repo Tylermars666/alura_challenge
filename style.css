@@ -201,7 +201,6 @@ textarea::placeholder{
 
     body{
         width: auto;
-        height: 1067px;
     }
 
     .header_conteiner{
@@ -212,7 +211,6 @@ textarea::placeholder{
 
     .header_logo{
         position: absolute;
-        right: 19em;
     }
     .header_title, #visible_img{
         display: none;
@@ -262,13 +260,17 @@ textarea::placeholder{
 
     .right_division{
         width: 90%;
-        margin-right: 11.5%;
+        margin-right: 10%;
         height: 20em;
     }
 
     .visible_content{
         padding-top: 19%;
         float: left;
+    }
+
+    .visible_text{
+        margin: 0 10%;
     }
 
     #invisible_textarea{
@@ -295,7 +297,6 @@ textarea::placeholder{
 @media only screen and (min-width: 769px) and (max-width: 1024px){
     body{
         width: auto;
-        height: 1174px;
     }
 
     .header_title, #visible_img{
