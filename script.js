@@ -5,20 +5,27 @@ function encriptar(){
     const vocals = ['e','o','i','a','u'];
     const words = ['enter','ober','imes','ai','ufat'];
 
-    for(let i=0;i<5;i++){
+    if(es_Especial(texto)){
+
+      for(let i=0;i<5;i++){
         texto = texto.replace(new RegExp(vocals[i], 'igm'), words[i]);
-    }
+      }
    
-    document.getElementById("visible_img").style.display = "none";
-    document.getElementById("visible_title").style.display = "none";
-    document.getElementById("visible_text").style.display = "none";
+      document.getElementById("visible_img").style.display = "none";
+      document.getElementById("visible_title").style.display = "none";
+      document.getElementById("visible_text").style.display = "none";
 
-    document.getElementById("invisible_textarea").style.display = "show";
-    document.getElementById("invisible_textarea").style.display = "initial";
-    document.getElementById("copy").style.display = "show";
-    document.getElementById("copy").style.display = "initial";
+      document.getElementById("invisible_textarea").style.display = "show";
+      document.getElementById("invisible_textarea").style.display = "initial";
+      document.getElementById("copy").style.display = "show";
+      document.getElementById("copy").style.display = "initial";
 
-    document.getElementById("invisible_textarea").innerHTML = texto;
+      document.getElementById("invisible_textarea").innerHTML = texto;
+    }else{
+      alert("No se permiten caracteres especiales")
+    }
+
+   
 
 }
 
@@ -28,20 +35,25 @@ function desencriptar(){
     const vocals = ['e','o','i','a','u'];
     const words = ['enter','ober','imes','ai','ufat'];
 
-    for(let i=0;i<5;i++){
-        texto= texto.replace(new RegExp(words[i], 'igm'), vocals[i]);
+    if(es_Especial(texto)){
+
+      for(let i=0;i<5;i++){
+          texto= texto.replace(new RegExp(words[i], 'igm'), vocals[i]);
+      }
+
+      document.getElementById("visible_img").style.display = "none";
+      document.getElementById("visible_title").style.display = "none";
+      document.getElementById("visible_text").style.display = "none";
+
+      document.getElementById("invisible_textarea").style.display = "show";
+      document.getElementById("invisible_textarea").style.display = "inherit";
+      document.getElementById("copy").style.display = "show";
+      document.getElementById("copy").style.display = "initial";
+
+      document.getElementById("invisible_textarea").innerHTML = texto;
+    }else{
+      alert("No se permiten caracteres especiales");
     }
-
-    document.getElementById("visible_img").style.display = "none";
-    document.getElementById("visible_title").style.display = "none";
-    document.getElementById("visible_text").style.display = "none";
-
-    document.getElementById("invisible_textarea").style.display = "show";
-    document.getElementById("invisible_textarea").style.display = "inherit";
-    document.getElementById("copy").style.display = "show";
-    document.getElementById("copy").style.display = "initial";
-
-    document.getElementById("invisible_textarea").innerHTML = texto;
 }
 
 function copiar() {
@@ -57,20 +69,16 @@ function copiar() {
   });
 }
 
+function es_Especial(texto){
+
+  const regExp = /[^a-z0-9ñ ]/gm;
+
+  return (texto.match(regExp)==null);
+}
+
 window.addEventListener('load', function(){
     document.getElementById("text_in").focus();
 });
 
-/*
-if (window.matchMedia("(max-width: 374px)").matches) {
-  
-  const textarea = document.getElementById("text_in");
-  textarea.addEventListener("keyup", e =>{
-  textarea.style.height = "59px";
-  let scHeight = e.target.scrollHeight;
-  textarea.style.height = `${scHeight}px`;
-});
 
-}
-*/
 
