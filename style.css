@@ -197,11 +197,11 @@ textarea::placeholder{
     color: #000000;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 481px) {
 
     body{
         width: auto;
-        height: 933px;
+        height: 1067px;
     }
 
     .header_conteiner{
