@@ -1,5 +1,5 @@
 ### DESCRIPCIÓN DEL PROYECTO :computer: :star:
-https://tylermars666.github.io/alura_challenge/
+https://tylermars666.github.io/alura_challenge/ </br>
 La realización de este trabajo surge del desafío propuesto por el proyecto ONE (Oracle Next Education) de Oracle+Alura Latam, para todos aquellos quienes hayamos concluido la sección “Principiante en Programación”. 
 La idea es poner en práctica todos los conocimientos adquiridos en el transcurso de este aprendizaje, en este caso en particular hablamos sobre manejo de HTML, CSS y JavaScript en la construcción de una página web dándole funcionalidad.
 
